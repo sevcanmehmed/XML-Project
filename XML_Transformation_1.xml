@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<healthy-food-catalog>
+    <foods>
+        <food>
+            <name>Авокадо</name>
+            <img/>avocado.jpg
+            <category>Плод</category>
+            <quantity>200g</quantity>
+            <price>2.48лв</price>
+            <flavour>Орехов</flavour>
+            <recipe-name>сандвич с авокадо</recipe-name>
+            <recipe-preparation>
+                Обелваме авокадото, като е хубаво да е добре узряло.
+                Намачкваме го с вилица до получаването на хомогенна смес. Нарязваме на ситно лука и домата. Смесваме всичко е овкусяваме със зехтин и сол.
+                Препичаме филийки пълнозърнест хляб и ги намазваме с готовата смес.
+                Чудесно предястие, както и междинна закуска.
+            </recipe-preparation>
+            <production>Америка</production>
+        </food>
+    </foods>
+</healthy-food-catalog>

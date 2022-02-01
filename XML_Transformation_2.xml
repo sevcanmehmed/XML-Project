@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<healthy-food-catalog>
+    <foods>
+        <food>
+            <name>Броколи</name>
+            <benefits> 1.Намаляват възпаленията.
+                2.Предпазват срещу някои видове рак.
+                3.Поддържат здравето на сърцето.
+                4.Подобряват храносмилането и намаляват запека.
+                5.Поддържат здрава умствена функция.
+                6.Забавят процеса на стареене.
+            </benefits>
+            <storage>хладилник</storage>
+            <expire-date>1-2 седмици</expire-date>
+            <quantity>500g</quantity>
+            <calories>170</calories>
+            <carbonhydrates>20g</carbonhydrates>
+            <fats></fats>
+            <protein>14g</protein>
+        </food>
+    </foods>
+</healthy-food-catalog>

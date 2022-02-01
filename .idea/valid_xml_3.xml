@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE healthy-food-catalog SYSTEM "healthy-food-catalog.dtd">
+<?xml-stylesheet type="text/xsl" href="txt_transformation2.xsl"?>
+
+<healthy-food-catalog>
+    <foods>
+        <food>
+            <name>Леща</name>
+            <image>lentils.jpg</image>
+            <category type="Бобови"/>
+            <benefits> 1. Понижава холестерола.
+                2.Поддържа здравето на сърцето.
+                3. Подпомага храносмилането.
+                4. Здравословен източник на протеин.
+                5. Увеличава енергията
+                6. Подпомага отслабването.
+            </benefits>
+            <price grams="500g">1.75лв</price>
+            <texture>Твърда</texture>
+            <consistency>Крехка</consistency>
+            <expire-date storage="рафт">1-2 години</expire-date>
+            <flavour alternative="сладка">Земен вкус</flavour>
+            <appearance>
+                <size>0.5см.</size>
+                <shape>заоблена, надута</shape>
+                <color>кафяв,зелен, червен</color>
+            </appearance>
+            <nutritional-content size="500g">
+                <calories>580</calories>
+                <carbs sugars="9g">100g</carbs>
+                <fat saturated="0.5g">2g</fat>
+                <protein>45g</protein>
+                <vitamin quantity="12.5%">C</vitamin>
+            </nutritional-content>
+            <recipe name="Супа от зеленчуци и леща">
+                <products>
+                    лук - 1 глава, кромид
+                    чесън - 2 скилидки, на ситно
+                    леща - 5 ч.ч. (500 г), зелена
+                    домати - 1 бр., обелен, нарязан едро
+                    сол, черен пипер - на вкус
+                    бульон - 1 кубче, зеленчуков
+                    вода - 1, 5 л
+                    картофи - 2 бр., на кубчета
+                    моркови - 2 бр., на кубчета
+                </products>
+                <preparation>
+                    Лукът и чесънът се запържват около 5 мин. Добавят се лещата и доматът. Осолява се и се поръсва с черен пипер.
+                    Добавя се кубчето бульон и водата. След 15 мин. се прибавят картофите, морковите и се варят още 15 мин.
+                    Поднася се топла с хляб.
+                </preparation>
+                <time>
+                    25-30 минути
+                </time>
+            </recipe>
+            <ethical-production>
+                <country part="централна">Америка</country>
+            </ethical-production>
+        </food>
+
+    </foods>
+
+
+</healthy-food-catalog>

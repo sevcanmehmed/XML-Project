@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE healthy-food-catalog SYSTEM "healthy-food-catalog.dtd">
+<?xml-stylesheet type="text/xsl" href="html_transformation4.xsl"?>
+
+<healthy-food-catalog>
+    <foods>
+        <food>
+            <name>Сьомга</name>
+            <image>salmon.jpg</image>
+            <category type="Месо"/>
+            <benefits> 1.Намалява риска от сърдечни заболявания.
+                2.Защитава здравето на мозъка.
+                3.Богата на омега-3 мастни киселини.
+                4.Пълна с антиоксиданти.
+                5.Тя е от решаващо значение за имунитета.
+                6.Тя е ключът за здрави кости.
+            </benefits>
+            <price grams="210g">9.16лв</price>
+            <texture>Мека</texture>
+            <consistency>Влажна</consistency>
+            <expire-date storage="хладилник">1-2 дена</expire-date>
+            <flavour alternative="ароматен">Мазен</flavour>
+            <appearance>
+                <size>0.5-1.5м.</size>
+                <shape>продълговата, странично сплескано тяло</shape>
+                <color>розово-оранжева</color>
+            </appearance>
+            <nutritional-content size="210g">
+                <calories>392</calories>
+                <carbs sugars="0g">0g</carbs>
+                <fat saturated="5g">24g</fat>
+                <protein>42g</protein>
+                <vitamin quantity="14%">C</vitamin>
+            </nutritional-content>
+            <recipe name="Маринована сьомга с чесън и соев сос">
+                <products>
+                    6 бр филета от сьомга
+                    1 скилидка чесън
+                    ½ чаша кафява захар
+                    ½ чаша олио/зехтин
+                    ½ чаша вода
+                    ½ чаша соев сос
+                    1 щипка сол
+                    1 щипка черен пипер
+                    1 лимон за изстискване
+                </products>
+                <preparation>
+                    За да направите маринатата смесете соевия сос, мазнината, подправките, наситнения чесън, изстискания лимонов сок, захарта и водата.
+                    Разбъркайте добре и потопете филетата в маринатата.
+                    Оставете така в хладилника за няколко часа.
+                    Загрейте мазнина в тигана на средна температура.
+                    Запържете сьомгата от всяка страна по няколко минути.
+                    По този начин рибата може да се приготви и на скара.
+                </preparation>
+                <time>
+                    3-4 часа
+                </time>
+            </recipe>
+            <ethical-production>
+                <country part="Централна">Норвегия</country>
+            </ethical-production>
+        </food>
+
+    </foods>
+
+
+</healthy-food-catalog>

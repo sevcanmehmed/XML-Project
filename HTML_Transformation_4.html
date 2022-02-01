@@ -1,0 +1,134 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>XML Каталог със здравословни храни</title>
+    <style>
+        body{
+            background-image: url("screen_photos/healthyFood.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #tableCenter{
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 100px;
+            border-color: rgb(60,128,78);
+            font-family: "Times New Roman", Times, serif;
+            text-align: center;
+            box-shadow: 10px 10px 5px #888;
+        }
+
+        th{
+            font-size: 35px;
+            background-color: rgb(227, 118, 2);
+            box-shadow: 10px 10px 5px #888;
+        }
+
+        td{
+            background: antiquewhite;
+            font-size: 25px;
+            box-shadow: 10px 10px 5px #888;
+        }
+
+        button{
+            font-size: 25px;
+            font-weight: bold;
+            position: absolute;
+            margin-top: 30px;
+            background-color: #FFDF00;
+            border: 3px solid #757503;
+            border-radius: 10px;
+            box-shadow: 10px 10px 5px #888;
+        }
+
+        .buttons{
+            display: flex;
+            flex-direction: column;
+            gap:50px;
+        }
+        #avocado{
+            height: 200px;
+            width: 250px;
+        }
+        #lentils {
+            height: 120px;
+            width: auto;
+        }
+        #brownRice{
+            height: 150px;
+            width: auto;
+        }
+    </style>
+</head>
+
+<body>
+<div class="buttons">
+    <a href="HTML_Transformation_1.html"><button>Основна информация</button></a>
+    <a href="HTML_Transformation_2.html"><button>Ползи</button></a>
+    <a href="HTML_Transformation_3.html"><button>Хранително съдържание</button></a>
+    <a href="HTML_Transformation_5.html"><button>Рецепти</button></a>
+</div>
+<table id="tableCenter" border="1">
+    <tbody>
+    <tr>
+        <th>Име</th>
+        <th>Текстура</th>
+        <th>Консистенция</th>
+        <th>Размер</th>
+        <th>Форма</th>
+        <th>Цвят</th>
+        <th>Снимка</th>
+    </tr>
+    <tr>
+        <td>Авокадо</td>
+        <td>Кремообразна</td>
+        <td>Мека</td>
+        <td>7-10см.</td>
+        <td>крушовидна, продълговата</td>
+        <td>тъмно зелен</td>
+        <td><img id="avocado" src="screen_photos/avocado.jpg"></td>
+    </tr>
+    <tr>
+        <td>Броколи</td>
+        <td>Листата - меки, стъблата и дръжките - твърди</td>
+        <td>Хрупкави</td>
+        <td>60-90см.</td>
+        <td>дървовидна</td>
+        <td>тъмно зелен</td>
+        <td><img src="screen_photos/broccoli.jpg"></td>
+    </tr>
+    <tr>
+        <td>Леща</td>
+        <td>Твърда</td>
+        <td>Крехка</td>
+        <td>0.5см.</td>
+        <td>заоблена, надута</td>
+        <td>кафяв,зелен, червен</td>
+        <td><img id="lentils" src="screen_photos/lentils.jpg"></td>
+    </tr>
+    <tr>
+        <td>Сьомга</td>
+        <td>Мека</td>
+        <td>Влажна</td>
+        <td>0.5-1.5м.</td>
+        <td>продълговата, странично сплескано тяло</td>
+        <td>розово-оранжева</td>
+        <td><img src="screen_photos/salmon.jpg"></td>
+    </tr>
+    <tr>
+        <td>Кафяв ориз</td>
+        <td>твърд </td>
+        <td>Леко хрупкав</td>
+        <td>0.5см</td>
+        <td>малък, продълговат</td>
+        <td>светло кафяв</td>
+        <td><img id="brownRice" src="screen_photos/brownRice.jpg"></td>
+    </tr>
+
+    </tbody>
+</table>
+
+</body>
+
+</html>

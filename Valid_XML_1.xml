@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="html_transformation4.xsl"?>
+<!DOCTYPE healthy-food-catalog SYSTEM "healthy-food-catalog.dtd">
+
+<healthy-food-catalog>
+   <foods>
+       <food>
+          <name>Авокадо</name>
+           <image>avocado.jpg</image>
+           <category type="Плод"/>
+           <benefits> 1. Намалява риска от сърдечносъдови заболявания.
+                      2. Екстракт от авокадо подпомага за облекчаване на симптомите на артрит.
+                      3. Мазнините в авокадото помагат да се абсорбират хранителните вещества от растителните храни.
+                      4. Помага в борбата с килограмите
+                      5. Предпазва от рак
+                      6. Въздейства благотворно върху кожата и очите
+           </benefits>
+           <price grams="200g">2.48лв</price>
+           <texture>Кремообразна</texture>
+           <consistency>Мека</consistency>
+           <expire-date storage="хладилник">7-10 дни</expire-date>
+           <flavour alternative="маслен">Орехов</flavour>
+           <appearance>
+               <size>7-10см.</size>
+               <shape>крушовидна, продълговата</shape>
+               <color>тъмно зелен</color>
+           </appearance>
+           <nutritional-content size="200g">
+               <calories>322</calories>
+               <carbs sugars="1g">17g</carbs>
+               <fat saturated="4g">29g</fat>
+               <protein>4g</protein>
+               <vitamin quantity="33%">C</vitamin>
+           </nutritional-content>
+           <recipe name="сандвич с авокадо">
+               <products>
+                   авокадо - 2 бр.
+                   червен лук - 1 бр.
+                   домати - 1/2 бр.
+                   лимон - 1/2 бр.
+                   зехтин - на вкус
+                   сол - на вкус
+               </products>
+               <preparation>
+                   Обелваме авокадото, като е хубаво да е добре узряло.
+                   Намачкваме го с вилица до получаването на хомогенна смес. Нарязваме на ситно лука и домата. Смесваме всичко е овкусяваме със зехтин и сол.
+                   Препичаме филийки пълнозърнест хляб и ги намазваме с готовата смес.
+                   Чудесно предястие, както и междинна закуска.
+               </preparation>
+               <time>
+                   10-15 минути
+               </time>
+           </recipe>
+           <ethical-production>
+               <country part="Централна">Америка</country>
+           </ethical-production>
+       </food>
+
+   </foods>
+
+
+</healthy-food-catalog>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE healthy-food-catalog SYSTEM "healthy-food-catalog.dtd">
+<?xml-stylesheet type="text/xsl" href="html_transformation4.xsl"?>
+<healthy-food-catalog>
+    <foods>
+        <food>
+            <name>Кафяв ориз</name>
+            <image>brownRice.jpg</image>
+            <category type="Зърнен"/>
+            <benefits> 1.Контролира диабета.
+                2.Ниско съдържание на захар.
+                3.Богат на антиоксиданти.
+                4.Предотвратява затлъстяването.
+                5.Предотвратява болестта на Алцхаймер.
+                6.Зовишава здравето на сърцето.
+            </benefits>
+            <price grams="500g">1.82лв</price>
+            <texture>твърд </texture>
+            <consistency>Леко хрупкав</consistency>
+            <expire-date storage="рафт">около 6 месеца</expire-date>
+            <flavour alternative="силен">орехов</flavour>
+            <appearance>
+                <size>0.5см</size>
+                <shape>малък, продълговат</shape>
+                <color>светло кафяв</color>
+            </appearance>
+            <nutritional-content size="500g">
+                <calories>1850</calories>
+                <carbs sugars="5g">385g</carbs>
+                <fat saturated="5g">15g</fat>
+                <protein>40g</protein>
+                <vitamin quantity="0%">C</vitamin>
+            </nutritional-content>
+            <recipe name="Ризото с кафяв ориз">
+                <products>
+                    ориз - 250 г кафяв
+                    гъби - 250 г
+                    вино - 150 мл бяло
+                    лук - 1 глава
+                    бульон - гъбен
+                    кашкавал - 80 г
+                    пармезан - 2 с.л. настърган
+                    сол, черен пипер, бял пипер - на вкус
+                </products>
+                <preparation>
+                    Накиснете кафявия ориз за 30 минути в студена вода.
+                    Загрейте зехтина в тенджера с широко дъно и запържете нарязания лук и гъби.
+                    Посолете на вкус и добавете отцедения ориз, след което долейте горещ гъбен бульон.
+                    Щом оризът поеме течността, добавете бялото вино и след няколко минути още гъбен бульон.
+                    Добавяйте бульон, докато кафявият ориз уври напълно и често разбърквайте.
+                    Накрая овкусете с още сол, черен и бял пипер и разбъркайте с настъргания кашкавал, след като сте свалили от котлона.
+                    Поднесете ястието топло с настърган пармезан отгоре.
+                </preparation>
+                <time>
+                    1 час
+                </time>
+            </recipe>
+            <ethical-production>
+                <country part="Азиатски части">Китай</country>
+            </ethical-production>
+        </food>
+
+    </foods>
+
+
+</healthy-food-catalog>

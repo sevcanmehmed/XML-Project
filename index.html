@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="bg">
+    <head>
+        <meta charset="utf-8">
+
+        <title>Генериране на XML с DOM</title>
+
+        <script src="libs/vkbeautify/vkbeautify.js"></script>
+        <script src="scripts/xml.js"></script>
+        <script src="scripts/main.js"></script>
+
+        <style>
+            body {
+                background-image: url(".idea/screen_photos/healthyFood.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                font-family: "Times New Roman";
+                font-size: 18px;
+                font-weight: bold;
+            }
+            button{
+                font-family: "Times New Roman";
+              font-size: 40px;
+                border-radius: 10px;
+                 background: #65f512;
+             }
+
+        </style>
+
+    </head>
+
+
+    <body>
+        <button onclick="generateXML()">Генерирай XML</button>
+        <p>
+            <pre id="generatedXML"></pre>
+        </p>
+    </body>
+</html>

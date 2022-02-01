@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!ELEMENT healthy-food-catalog (foods)>
+        <!ELEMENT foods (food+)>
+        <!ELEMENT food (name, image, category, price, benefits texture expire-date flavour, appearance,  nutritional-content, recipe, ethical-production) >
+           <!ELEMENT name (#PCDATA)>
+           <!ELEMENT image (#PCDATA)>
+           <!ELEMENT category (#PCDATA)>
+           <!ELEMENT benefits (#PCDATA)>
+           <!ELEMENT price (#PCDATA)>
+           <!ELEMENT texture (#PCDATA)>
+            <!ELEMENT consistency (#PCDATA)>
+           <!ELEMENT expire-date (#PCDATA)>
+           <!ELEMENT flavour (#PCDATA)>
+           <!ELEMENT appearance (size, shape, color)>
+               <!ELEMENT size (#PCDATA)>
+               <!ELEMENT shape (#PCDATA)>
+               <!ELEMENT color (#PCDATA)>
+            <!ELEMENT nutritional-content (calories, carbs, fat, protein, vitamin)>
+               <!ELEMENT calories (#PCDATA)>
+               <!ELEMENT carbs (#PCDATA)>
+               <!ELEMENT fat (#PCDATA)>
+               <!ELEMENT protein (#PCDATA)>
+               <!ELEMENT vitamin (#PCDATA)>
+            <!ELEMENT recipe (products,preparation,time)>
+                 <!ELEMENT products (#PCDATA)>
+                 <!ELEMENT preparation (#PCDATA)>
+                 <!ELEMENT time (#PCDATA)>
+            <!ELEMENT ethical-production (country)>
+              <!ELEMENT country (#PCDATA)>
+
+ <!ATTLIST category type (Зърнен|Млечен|Плод|Зеленчук|Месо|Бобови) #REQUIRED>
+<!ATTLIST carbs sugars CDATA #REQUIRED>
+<!ATTLIST fat saturated CDATA #REQUIRED>
+<!ATTLIST vitamin quantity CDATA #REQUIRED>
+<!ATTLIST country part CDATA #REQUIRED>
+<!ATTLIST flavour alterntive CDATA #REQUIRED>
+<!ATTLIST price grams CDATA #REQUIRED>
+<!ATTLIST expire-date storage (рафт|хладилник) #REQUIRED>
+<!ATTLIST nutritional-content size CDATA #REQUIRED>
+<!ATTLIST recipe name CDATA #REQUIRED>
+
+
+
